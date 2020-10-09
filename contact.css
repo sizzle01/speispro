@@ -14,6 +14,18 @@ html {
 
 /*MENU*/
 
+.logo {
+    width: 20rem;
+    position: absolute;
+    left: 1rem;
+    z-index: 5;
+    top: -2rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
 .hamburger-menu {
     width: 3rem;
     height: 3rem;
@@ -549,8 +561,11 @@ header {
         top: -3rem;
         z-index: 5;
     }*/
+    .logo {
+        width: 12rem;
+    }
     .menu-link {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .hamburger-menu span {
         left: 4rem;
@@ -571,6 +586,9 @@ header {
     .banner h1 {
         font-size: 4rem;
         line-height: 5rem;
+    }
+    .contact-heading1 {
+        font-size: 3rem;
     }
     .banner p {
         font-size: 2rem;

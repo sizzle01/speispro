@@ -321,6 +321,25 @@ html {
 }
 
 
+/*SCROLL BUTTON*/
+
+.scroll-btn {
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #eb9834;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+}
+
+
 /*FOOTER*/
 
 .footer {
@@ -388,7 +407,7 @@ html {
         z-index: 5;
     }*/
     .menu-link {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .hamburger-menu span {
         left: 4rem;
