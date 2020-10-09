@@ -169,10 +169,11 @@ html {
 /*LOGO*/
 
 .logo {
-    width: 15rem;
+    width: 20rem;
     position: absolute;
-    left: 6rem;
+    left: 1rem;
     z-index: 5;
+    top: -2rem;
 }
 
 .logo img {
@@ -293,11 +294,11 @@ html {
 
 .banner {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 15%;
 }
 
-.banner span {
+.banner h1 {
     padding-bottom: 2rem;
     color: #eb9834;
     font-family: 'Jacques Francois Shadow', cursive;
@@ -305,11 +306,11 @@ html {
 
 .banner h2 {
     font-family: "Baloo Da 2", serif;
-    font-size: 5.5rem;
+    font-size: 4rem;
     font-weight: 300;
     color: #fff;
     width: 50%;
-    line-height: 7rem;
+    line-height: 6rem;
     letter-spacing: 0.2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     opacity: 0;
@@ -335,7 +336,7 @@ html {
     border: none;
     font-family: "Muli", serif;
     font-weight: 500;
-    font-size: 6rem;
+    font-size: 3rem;
     text-transform: uppercase;
     color: #fff;
     text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
@@ -642,6 +643,9 @@ html {
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
+
+/*CONTACT STYLES*/
+
 .contact {
     width: 100%;
     height: 100vh;
@@ -942,10 +946,51 @@ html {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 830px) {
+    /* .logo {
+        width: 14rem;
+        position: absolute;
+        left: 6rem;
+        top: -3rem;
+        z-index: 5;
+    }*/
     .banner h1 {
+        letter-spacing: .5rem;
         font-size: 4rem;
-        line-height: 5rem;
+        line-height: 3rem;
+    }
+    .banner h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .banner p {
+        font-size: 1.7rem;
+    }
+    .banner span {
+        padding-bottom: 1rem;
+    }
+    .menu-link {
+        font-size: 2rem;
+    }
+    .hamburger-menu span {
+        left: 4rem;
+        width: 7rem;
+        height: 3rem;
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+    }
+    .footer {
+        margin-top: 9rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo {
+        width: 12rem;
+    }
+    .banner h1 {
+        font-size: 3rem;
+        line-height: 2rem;
     }
     .banner p {
         font-size: 2rem;

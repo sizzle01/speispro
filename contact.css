@@ -35,7 +35,7 @@ html {
 .line {
     width: 100%;
     height: 0.2rem;
-    background-color: #c29525;
+    background-color: #eb9834;
     box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -61,7 +61,7 @@ html {
     left: 5rem;
     width: 10rem;
     height: 4rem;
-    background-color: #e2b646;
+    background-color: #eb9834;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,7 @@ html {
     content: "";
     position: absolute;
     border-left: 1rem solid transparent;
-    border-right: 1rem solid #e2b646;
+    border-right: 1rem solid#eb9834;
     border-bottom: 1rem solid transparent;
     border-top: 1rem solid transparent;
     top: 50%;
@@ -129,7 +129,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    color: #c29525;
+    color: #eb9834;
     width: 0;
     overflow: hidden;
     white-space: nowrap;
@@ -163,7 +163,7 @@ html {
 }
 
 .social-media i:hover {
-    background-color: #c29525;
+    background-color: #eb9834;
 }
 
 
@@ -205,7 +205,7 @@ header {
 .underline {
     width: 12rem;
     height: 0.3rem;
-    background-color: #c29525;
+    background-color: #eb9834;
 }
 
 .details {
@@ -341,7 +341,7 @@ header {
 .submit-btn {
     width: 45rem;
     height: 5rem;
-    background-color: #c29525;
+    background-color: #eb9834;
     color: #fff;
     border: none;
     margin-top: 2rem;
@@ -394,7 +394,7 @@ header {
     bottom: 5rem;
     width: 4.5rem;
     height: 4.5rem;
-    background-color: #e2b646;
+    background-color: #eb9834;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -538,6 +538,32 @@ header {
     .copyright {
         order: 1;
         margin-top: 3rem;
+    }
+}
+
+@media (max-width: 830px) {
+    /* .logo {
+        width: 14rem;
+        position: absolute;
+        left: 6rem;
+        top: -3rem;
+        z-index: 5;
+    }*/
+    .menu-link {
+        font-size: 2rem;
+    }
+    .hamburger-menu span {
+        left: 4rem;
+        width: 7rem;
+        height: 3rem;
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+    }
+    .footer {
+        margin-top: 9rem;
+    }
+    .details {
+        margin-bottom: 12rem;
     }
 }
 

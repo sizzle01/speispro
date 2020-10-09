@@ -14,6 +14,18 @@ html {
 
 /*MENU STYLE*/
 
+.logo {
+    width: 20rem;
+    position: absolute;
+    left: 1rem;
+    z-index: 5;
+    top: -2rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
 .hamburger-menu {
     width: 3rem;
     height: 3rem;
@@ -35,7 +47,7 @@ html {
 .line {
     width: 100%;
     height: 0.2rem;
-    background-color: #c29525;
+    background-color: #eb9834;
     box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -61,7 +73,7 @@ html {
     left: 5rem;
     width: 10rem;
     height: 4rem;
-    background-color: #e2b646;
+    background-color: #eb9834;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +95,7 @@ html {
     content: "";
     position: absolute;
     border-left: 1rem solid transparent;
-    border-right: 1rem solid #e2b646;
+    border-right: 1rem solid #eb9834;
     border-bottom: 1rem solid transparent;
     border-top: 1rem solid transparent;
     top: 50%;
@@ -138,7 +150,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    color: #c29525;
+    color: #eb9834;
     width: 0;
     overflow: hidden;
     white-space: nowrap;
@@ -172,7 +184,7 @@ html {
 }
 
 .social-media i:hover {
-    background-color: #c29525;
+    background-color: #eb9834;
 }
 
 
@@ -180,7 +192,7 @@ html {
 
 .story-head {
     font-size: 4rem;
-    color: #af9f66;
+    color: #eb9834;
     margin-bottom: 3rem;
 }
 
@@ -210,7 +222,7 @@ html {
 .underline {
     width: 12rem;
     height: 0.3rem;
-    background-color: #c29525;
+    background-color: #eb9834;
 }
 
 .about-banner {
