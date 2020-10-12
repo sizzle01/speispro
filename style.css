@@ -971,7 +971,7 @@ html {
         padding-bottom: 1rem;
     }
     .menu-link {
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .hamburger-menu span {
         left: 4rem;
@@ -988,6 +988,12 @@ html {
 @media (max-width: 700px) {
     .logo {
         width: 12rem;
+    }
+    .social-media i {
+        font-size: 2.3rem;
+        margin: 2.4rem;
+        width: 3.4rem;
+        height: 3.2rem;
     }
     .banner h1 {
         font-size: 3rem;
@@ -1010,6 +1016,12 @@ html {
 @media (max-width: 500px) {
     html {
         font-size: 55%;
+    }
+    .social-media i {
+        font-size: 2rem;
+        margin: 2rem;
+        width: 3rem;
+        height: 3rem;
     }
     .sidebar {
         width: 100%;
