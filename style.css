@@ -283,14 +283,15 @@ html {
     animation: scale 25s;
 }
 
-@keyframes scale {
+
+/*@keyframes scale {
     0% {
         transform: scale(1.3);
     }
     100% {
         transform: scale(1);
     }
-}
+}*/
 
 .banner {
     position: absolute;
@@ -301,7 +302,8 @@ html {
 .banner h1 {
     padding-bottom: 2rem;
     color: #eb9834;
-    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 5rem;
 }
 
 .banner h2 {
@@ -309,7 +311,7 @@ html {
     font-size: 4rem;
     font-weight: 300;
     color: #fff;
-    width: 50%;
+    width: 52%;
     line-height: 6rem;
     letter-spacing: 0.2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
@@ -321,7 +323,7 @@ html {
     font-family: "Josefin Slab", serif;
     font-size: 4rem;
     color: #fff;
-    width: 70%;
+    width: 80%;
     letter-spacing: 0.1rem;
     margin-bottom: 3rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
