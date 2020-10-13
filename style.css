@@ -470,7 +470,7 @@ html {
 
 .service {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
 }
 
 .service:nth-child(1) {
@@ -513,6 +513,7 @@ html {
     font-size: 4rem;
     color: #eb9834;
     margin-right: 2rem;
+    margin-top: 2rem;
 }
 
 .service-header h3 {
@@ -525,13 +526,13 @@ html {
 
 .service-text {
     font-family: "Josefin Slab", serif;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-align: justify;
 }
 
 .about-us-img-wrapper {
     grid-column: 7 / 11;
-    grid-row: 2 / 6;
+    grid-row: 3 / 6;
     width: 100%;
 }
 
