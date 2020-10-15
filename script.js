@@ -6,10 +6,12 @@ window.onload = () => {
 };
 
 
+
 //MENU FUNCTION
 document.querySelector(".hamburger-menu").addEventListener("click", () => {
     document.querySelector(".container, .about-cont").classList.toggle("change");
 });
+
 
 
 //SCROLL UP FUNCTION
