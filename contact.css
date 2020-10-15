@@ -565,6 +565,9 @@ header {
         width: 12rem;
     }
     .menu-link {
+        font-size: 2.8rem;
+    }
+    .menu-link {
         font-size: 4rem;
     }
     .hamburger-menu span {
@@ -607,6 +610,9 @@ header {
 @media (max-width: 500px) {
     html {
         font-size: 47%;
+    }
+    .menu-link {
+        font-size: 2.4rem;
     }
     .sidebar {
         width: 100%;
